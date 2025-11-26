@@ -1,17 +1,27 @@
+#### 基本情况
+刘敏，男，二级教授，人工智能与机器人学院党委书记；
+
+国家杰出青年基金获得者，教育部青年人才，国家重点研发计划首席科学家；
+
+机械工业先进制造视觉检测与控制技术重点实验室主任，机器人视觉感知与控制技术国家工程中心核心成员；
+
+中国图象图形学学会青工委副主任，湖南省自动化学会副理事长。
+
+#### 个人简介
+本科毕业于北京大学，博士毕业于美国加州大学河滨分校。
+
+先后主持国家重点研发计划项目、国家自然科学基金重点项目、国家重点研发计划国际合作重点项目等重大重点项目，湖南省科技创新领军人才、湖南省杰出青年基金获得者，以第一或通讯作者在IEEE TPAMI等IEEE汇刊发表论文40余篇，在IF大于20的期刊上发表论文5篇,IF大于10的期刊上发表论文22篇。申请发明专利70余项，授权30余项。获国家教学成果二等奖（排第2）、中国图象图形学学会科技进步一等奖（排第1）、湖南省科技进步一等奖、中国自动化学会科技进步一等奖、中国自动化学会青年科学家奖、湖南省科学技术创新团队奖、湖南省教学成果奖特等奖、一等奖。担任《IEEE Transactions on Neural Networks and Learning Systems》、《Journal of Intelligent and Robotic Systems》、《指挥与控制学报》等期刊编委。
+
+担任教育部学位中心主题案例首席专家、湖南省研究生联合培养基地主任、湖南省校企合作创新创业基地主任，先后主持7项国家级、省部级教改项目，第一作者和通讯作者发表教改论文10篇（CSSCI期刊论文4篇）。近年指导的学生中，15名同学获研究生国家奖学金，4名同学获评省部级优秀毕业生，9名同学毕业论文获评省部级优秀学位论文，指导学生获中国“互联网+”创新创业大赛银奖、中国图象图形学学会图像图形挑战赛全国冠军。
+
+研究方向包括机器人视觉、模式识别与机器学习等，应用于工业视觉检测、智能机器人、智慧电力等领域。每年招收2名博士研究生以及直博生和多名硕士研究生，有兴趣的同学请email联系，liu_min@hnu.edu.cn。
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+#### 教育经历
+2000-09-01—2004-06-30，北京大学，电子信息科学与技术，大学毕业，工学学士
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+2004-09-01—2007-06-30，北京大学，电子信息，硕士研究生，工学硕士
 
-#### Contact
+2007-09-15—2012-04-20，加州大学河滨分校，电子工程，博士研究生，工学博士
 
-Email: senli[at]fas.harvard.edu
-
-#### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
-
-#### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
 

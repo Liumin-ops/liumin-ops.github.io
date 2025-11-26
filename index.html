@@ -88,16 +88,29 @@
                 MENU
                 <i class="bi-list"></i>
             </button>
+			<!-- 可以在此处修改顶部导航栏 -->
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a class="nav-link me-lg-3" href="#page-top">基本信息</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#publications">学术成果</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#awards">项目与奖励</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#person">导师风采</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#research">研究领域介绍</a>
+                    </li>
+					
+					<li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#team">团队剪影</a>
                     </li>
 
                 </ul>
@@ -118,7 +131,7 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
+            <img class="shadow" src="static/assets/img/Min_Liu.jpg">
         </div>
     </div>
     <!-- Photo -->
@@ -139,7 +152,7 @@
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;学术成果</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
@@ -151,7 +164,7 @@
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>主持的代表性项目与奖励</h2>
             </header>
             <div class="main-body" id="awards-md"></div>
 
@@ -159,18 +172,155 @@
     </section>
     <!-- Awards -->
 
+    <!-- Personal news -->
+	<section class="bg-gradient-primary-to-secondary-gray mt5 md5 py-8" id="person">
+        <div class="container px-5">
+            <header class="mb-6">
+                <h2 id="team-subtitle"><i class="bi bi-user-tie"></i>&nbsp;导师风采</h2>
+            </header>
+
+            <!-- 添加横向滚动容器 -->
+            <div class="team-scroll-container">
+                <div class="team-gallery d-flex gap-6 pb-2">
+                    <!-- 团队图片1 -->
+                    <div class="gallery-item flex-shrink-0" style="width: 300px;"> <!-- 固定项宽度，与图片宽度一致 -->
+                        <!-- 图片：保持比例，避免变形 -->
+                        <img src="static/assets/img/personal/beijing3.jpg" 
+                            alt="团队合影" 
+                            class="shadow rounded w-100 h-200 object-cover"> <!-- w-100自适应容器，object-cover保持比例 -->
+                        <!-- 文字：限制宽度=图片宽度，自动换行，居中对齐 -->
+                        <p class="mt-2 text-center" style="max-width: 300px; white-space: normal; word-wrap: break-word;">
+                            北京大学信科院2024年毕业典礼作为校友代表发表演讲
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-6">
+                <a href="mentor-details.html" class="btn btn-outline-dark">查看更多 <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="research">
+        <div class="container px-5">
+            <header>
+                <h2><i class="bi bi-robot"></i>&nbsp;研究领域介绍</h2>
+            </header>
+            
+            <!-- 研究方向介绍 -->
+            <div class="row gx-5 gy-6 mb-8">
+                <!-- 研究方向1 - 淡蓝色调 -->
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="card shadow border-0 flex-fill rounded-4 overflow-hidden" style="background: linear-gradient(135deg, #f0f8fb 0%, #e8f4f8 100%); border: 1px solid #dee2e6;">
+                        <div class="p-1 bg-blue-50">
+                            <img class="card-img-top rounded-3" src="static/assets/img/research/surgical_robot.jpg" alt="手术具身智能" style="object-fit: cover; height: 200px;">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h5 class="card-title text-blue-800 fw-bold">手术具身智能</h5>
+                            <p class="card-text flex-grow-1 text-gray-700">基于多模态视觉与力觉融合的手术机器人自主操作研究，实现高精度定位与安全控制。探索医疗机器人在微创手术中的精准应用，提升手术安全性与效率。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 研究方向2 - 淡绿色调 -->
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="card shadow border-0 flex-fill rounded-4 overflow-hidden" style="background: linear-gradient(135deg, #f5fafe 0%, #eaf6fa 100%); border: 1px solid #dee2e6;">
+                        <div class="p-1 bg-green-50">
+                            <img class="card-img-top rounded-3" src="static/assets/img/研究领域介绍/工业具身智能1.jpg" alt="工业具身智能" style="object-fit: cover; height: 200px;">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h5 class="card-title text-green-800 fw-bold">工业具身智能</h5>
+                            <p class="card-text flex-grow-1 text-gray-700">本团队长期致力于具身智能工业机器人关键技术，面向我国高端装备复杂外形部件的表面缺陷检测需求，持续开展创新研究。在国家重点研发计划“工业软件”重点专项的支持下，团队针对航空发动机叶片表面缺陷检测的技术瓶颈，攻克了具身感知、具身检测与具身决策等系列关键技术，研发出集成化表面质量检测与管控装备。该成果已成功应用于中国航发南方工业有限公司航空发动机叶片自动化生产线，实现了涡轮叶片等核心部件的高速、高精度检测与智能化综合评价，解决了关键环节“看得清、测得准、评得明”的难题，为我国航空发动机制造的数字化、智能化和高端化转型升级提供了重要技术支撑。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 研究方向3 - 淡紫色调 -->
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="card shadow border-0 flex-fill rounded-4 overflow-hidden" style="background: linear-gradient(135deg, #faf0f5 0%, #f5e6f0 100%); border: 1px solid #dee2e6;">
+                        <div class="p-1 bg-purple-50">
+                            <img class="card-img-top rounded-3" src="static/assets/img/research/power_robot.jpg" alt="电力具身智能" style="object-fit: cover; height: 200px;">
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h5 class="card-title text-purple-800 fw-bold">电力具身智能</h5>
+                            <p class="card-text flex-grow-1 text-gray-700">基于无人机与地面协作的电力巡检系统，融合深度学习与三维建模技术。解决复杂地形与恶劣环境下的电力设施检测难题，提高巡检效率与安全性，为智能电网建设提供技术支撑。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新增：固定高度的留白控件，彻底分隔卡片和按钮 -->
+            <div style="height: 30px; clear: both;"></div>
+
+            <!-- 查看更多按钮 -->
+            <div class="text-center mt-6">
+                <a href="research.html" class="btn btn-outline-dark rounded-pill px-5 py-2" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+                    查看更多 <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Team Building -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5 py-8" id="team">
+        <div class="container px-5">
+            <header class="mb-6">
+                <h2 id="team-subtitle"><i class="bi bi-people-fill"></i>&nbsp;团队剪影</h2>
+            </header>
+
+            <!-- 添加横向滚动容器 -->
+            <div class="team-scroll-container">
+                <div class="team-gallery d-flex gap-6 pb-2">
+                    <!-- 团队图片1 -->
+                    <div class="gallery-item flex-shrink-0">
+                        <img src="static/assets/img/team/GroupPhoto1.jpg" alt="团队合影" class="shadow rounded" width="280" height="210">
+                        <p class="mt-2 text-center">团队合影</p>
+                    </div>
+                    
+                    <!-- 团队图片2 -->
+                    <div class="gallery-item flex-shrink-0">
+                        <img src="static/assets/img/team/Project3.jpg" alt="项目讨论" class="shadow rounded" width="280" height="210">
+                        <p class="mt-2 text-center">项目讨论</p>
+                    </div>
+                    
+                    <!-- 团队图片3 -->
+                    <div class="gallery-item flex-shrink-0">
+                        <img src="static/assets/img/team/Conference2.jpg" alt="学术会议" class="shadow rounded" width="280" height="210">
+                        <p class="mt-2 text-center">学术会议</p>
+                    </div>
+                    
+                    <!-- 团队图片4 -->
+                    <div class="gallery-item flex-shrink-0">
+                        <img src="static/assets/img/team/Building2.jpg" alt="团建活动" class="shadow rounded" width="280" height="210">
+                        <p class="mt-2 text-center">团建活动</p>
+                    </div>
+                    
+                    <!-- 团队图片5 -->
+                    <div class="gallery-item flex-shrink-0">
+                        <img src="static/assets/img/team/Result1.jpg" alt="成果展示" class="shadow rounded" width="280" height="210">
+                        <p class="mt-2 text-center">成果展示</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-6">
+                <a href="team.html" class="btn btn-outline-dark">查看更多 <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <a id="github-link" href="https://github.com/VCL-HNU">Github</a>
             </div>
         </div>
     </footer>
+	
 
 </body>
 
